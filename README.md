@@ -251,7 +251,7 @@ pillow
 
 ## 👨‍💻 Author
 
-**IshanGain**  
+**Ishan Gain**  
 GitHub: [@IshanGain](https://github.com/IshanGain)
 
 ---
