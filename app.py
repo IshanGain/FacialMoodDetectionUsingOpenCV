@@ -370,7 +370,7 @@ with tab1:
             file_bytes = np.frombuffer(uploaded_file.read(), dtype=np.uint8)
             img_bgr = cv2.imdecode(file_bytes, cv2.IMREAD_COLOR)
             img_rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
-            st.image(img_rgb, caption="Uploaded Image", use_column_width=True)
+            st.image(img_rgb, caption="Uploaded Image", use_container_width=True)
 
     with col2:
         st.markdown("### Prediction")
@@ -382,7 +382,7 @@ with tab1:
                 display_rgb = cv2.cvtColor(display_bgr, cv2.COLOR_BGR2RGB)
 
             # Show annotated image
-            st.image(display_rgb, caption="Detected Face + Prediction", use_column_width=True)
+            st.image(display_rgb, caption="Detected Face + Prediction", use_container_width=True)
 
             # Result card
             emoji = EMOTION_EMOJIS[mood]
@@ -479,7 +479,7 @@ with tab2:
                 display_bgr = draw_prediction_on_frame(img_bgr, faces, mood, confidence)
                 display_rgb = cv2.cvtColor(display_bgr, cv2.COLOR_BGR2RGB)
 
-            st.image(display_rgb, caption="Annotated Result", use_column_width=True)
+            st.image(display_rgb, caption="Annotated Result", use_container_width=True)
 
             emoji = EMOTION_EMOJIS[mood]
             color = EMOTION_COLORS[mood]
