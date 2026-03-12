@@ -10,7 +10,7 @@
 
 **A facial expression recognition system built using only OpenCV — no deep learning frameworks.**
 
-[🌐 Live Demo](https://facialmooddetectionusingopencv.onrender.com) · [📓 Notebook](fmd.ipynb) · [🖥️ Streamlit App](app.py) · [📦 Dataset](https://www.kaggle.com/datasets/shawon10/ckplus/data?select=CK%2B48)
+[🌐 Live Demo](https://facialmooddetectionusingopencv.onrender.com) · [📓 Notebook](fmd.ipynb) · [🖥️ Streamlit App](app.py)
 
 </div>
 
