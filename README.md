@@ -67,7 +67,7 @@ The project is deployed as a live **Streamlit web application** on Render, suppo
 ## 🏗️ Project Structure
 
 ```
-FacialMoodDetection/
+FacialMoodDetectionUsingOpenCV/
 │
 ├── fmd.ipynb                  # Main training notebook
 ├── app.py                     # Streamlit web application
