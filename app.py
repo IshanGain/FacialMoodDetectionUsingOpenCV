@@ -522,6 +522,9 @@ with tab2:
         - 😊 Happy: broad smile
         - 😲 Surprise: raised brows, open mouth
         - 😢 Sadness: drooping features
+        - 😒 Contempt: one side lip curl, smirk
+        - 🤢 Disgust: wrinkled nose, raised upper lip
+        - 😨 Fear: wide eyes, raised brows, open mouth
         """)
 
 # ══════════════════════════════════════════════════════════════════════════════
