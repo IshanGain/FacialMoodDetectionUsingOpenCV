@@ -137,7 +137,7 @@ pip install -r requirements.txt
 ```
 
 ### 4. Download the dataset
-Download the **CK+48** dataset ZIP (`FMDuOPCV.zip`) and place it in the project root.
+Download the **CK+48** dataset ZIP and place it in the project root.
 
 ---
 
